@@ -1,39 +1,50 @@
-
-.header-all{
-    display: flex;
-    flex-direction: row;
+.header-all {
+  display: flex;
+  flex-direction: row;
+  margin-left: 128px;
+  margin-right: 128px;
 }
-
 
 .header-main {
-    display: flex;
-    flex-direction: row;
-    margin-left: 35px;
-    justify-content: center;
-    align-items: center;
-    color: black;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: -0.4px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: -0.4px;
 }
-.logo-link{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #121417;
+.logo-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #121417;
 }
-.logo{
-    margin-right: 8px;
-    align-items: center;
-    display: flex;
+.logo {
+  margin-right: 8px;
+  align-items: center;
+  display: flex;
 }
 
-.header-nav{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+.header-nav {
+  display: flex;
+  flex-direction: row;
+  margin-left: 390px;
+  align-items: center;
 }
-.header-menu{
-    margin-left: 25px;
+.header-menu {
+  margin-left: 25px;
+  display: flex;
+  flex-direction: row;
+  color: #121417;
+}
+.header-link {
+  color: #121417;
+  margin-right: 28px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.2;
 }
