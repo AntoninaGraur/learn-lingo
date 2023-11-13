@@ -1,0 +1,22 @@
+
+.header-all{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.header-main {
+    display: flex;
+    flex-direction: row;
+    margin-left: 35px;
+}
+
+.logo{
+    margin-left: 20px;
+}
+
+.header-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
