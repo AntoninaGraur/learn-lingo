@@ -1,5 +1,6 @@
 .main-container{
     margin: 20px 64px 32px;
+    display: flex;
 }
 
 .hero-container {
@@ -40,4 +41,8 @@
   align-items: center;
   border-radius: 12px;
   background: #9fbaae;
+}
+
+.hero-img{
+    margin-left: 24px;
 }
