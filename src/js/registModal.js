@@ -6,6 +6,4 @@ export const openModal = document.querySelector('.registration-btn');
 export const closeBtn = document.querySelector('.regist-close-btn');
 
 
-openModal.addEventListener("click", () => {
-    backdrop.showModal()
-});
+openModal.addEventListener("click", () => backdrop.classList.add("active"));
