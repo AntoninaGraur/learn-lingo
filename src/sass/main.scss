@@ -1,6 +1,7 @@
 .main-container {
   margin: 20px 64px 32px;
   display: flex;
+  width: 1440px;
 }
 
 .hero-container {
@@ -67,14 +68,13 @@
   font-size: 28px;
   font-weight: 500;
   line-height: 1.14;
-  
 }
-.experience-text{
-    color: rgba(18, 20, 23, 0.70);
-font-size: 14px;
-font-weight: 400;
-line-height: 1.28; 
-letter-spacing: -0.28px;
-margin-left: 16px;
-width: 96px;
+.experience-text {
+  color: rgba(18, 20, 23, 0.7);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.28;
+  letter-spacing: -0.28px;
+  margin-left: 16px;
+  width: 96px;
 }

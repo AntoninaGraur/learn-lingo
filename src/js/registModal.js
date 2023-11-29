@@ -1,7 +1,14 @@
+(() => {
+  const refs = {
+    openModalBtn: document.querySelector('[data-modal-open]'),
+    closeModalBtn: document.querySelector('[data-modal-close]'),
+    modal: document.querySelector('[data-modal]'),
+  };
 
+  refs.openModalBtn.addEventListener('click', toggleModal);
+  refs.closeModalBtn.addEventListener('click', toggleModal);
 
-export const backdrop = document.querySelector('.regist-backdrop');
-export const modal = document.querySelector('.regist-form-container');
-export const openModal = document.querySelector('.registration-btn');
-export const closeBtn = document.querySelector('.regist-close-btn');
-
+  function toggleModal() {
+    refs.modal.classList.toggle('is-hidden');
+  }
+})();
