@@ -1,24 +1,25 @@
 .regist-backdrop {
-  position: fixed;
-  top: 0;
-  left: 0;
+  position: absolute;
   width: 100%;
   height: 100%;
-  background-image: linear-gradient(136deg, #7ea0f5, $accent-text-color);
-  z-index: 1000;
-}
-.regist-backdrop[registr-is-hidden] {
-  opacity: 0;
-  visibility: hidden;
+  background-color: #6b6565;
+   opacity: 0;
   pointer-events: none;
 }
+
 .regist-form-container {
   position: absolute;
-  top: 30%;
-  left: 6%;
-  background: $second-color;
+ max-width: 580px;
+ width: 100%;
+  background: #e3d2d2;
   border: 2px solid #111111;
   border-radius: 18px;
+  padding: 30px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  opacity: 0;
+  pointer-events: none;
 }
 .registr-form{
      width: 100%;
