@@ -21,4 +21,4 @@ const app = initializeApp(firebaseConfig);
 const database = getDatabase();
 const auth = getAuth(app);
 
-console.log(auth);
+
