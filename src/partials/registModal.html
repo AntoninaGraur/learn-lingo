@@ -1,4 +1,4 @@
-<div class="regist-backdrop" data-modal>
+<div class="regist-backdrop" id="registrWindow" data-modal>
   <div class="regist-form-container">
     <button type="button" class="registr-close-btn" data-modal-close>
       <svg class="close-icon-modal" width="20" height="20">
@@ -12,9 +12,9 @@
         need some information. Please provide us with the following information
       </p>
       <input class="registr-input" type="text" id="nameInpt" placeholder="Name" minlength="6" required />
-      <input class="registr-input" type="text" id="emailInpt" placeholder="Email" required />
-      <input class="registr-input" type="text" id="passInpt" placeholder="Password" minlength="8" required />
-      <button class="registr-main-btn" type="submit">Sign up</button>
+      <input class="registr-input" type="email" id="emailInpt" placeholder="Email" required />
+      <input class="registr-input" type="password" id="passInpt" placeholder="Password" minlength="8" required />
+      <button class="registr-main-btn" type="submit" id="regisrButton">Sign up</button>
     </form>
   </div>
 </div>
