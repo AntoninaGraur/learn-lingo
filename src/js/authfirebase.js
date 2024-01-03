@@ -1,12 +1,12 @@
 
-  import { initializeApp } from 'https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js';
+  import { initializeApp } from 'firebase/app';
   import {
     getAuth,
     createUserWithEmailAndPassword,
     signInWithEmailAndPassword,
     onAuthStateChanged,
     signOut,
-  } from 'https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js';
+  } from 'firebase/auth';
 
   const firebaseConfig = {
     apiKey: 'AIzaSyC4UcnUoTTN2_H0jlFuihTdTRN09u_I5Hg',
@@ -19,4 +19,11 @@
 
   const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
+const userEmail = document.querySelector('#emailInpt');
+const userPassword = document.querySelector('#passInpt');
+const registBtn = document.querySelector('#regisrButton');
+const registerWindow = document.querySelector('#registrWindow');
+
+
+
 
