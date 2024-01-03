@@ -25,5 +25,10 @@ const registBtn = document.querySelector('#regisrButton');
 const registerWindow = document.querySelector('#registrWindow');
 
 
+const userSignUp = async () => {
+  const signUpEmail = userEmail.value;
+  const signUpPassword = userPassword.value;
+ createUserWithEmailAndPassword(auth, signUpEmail, signUpPassword)
 
+}
 
