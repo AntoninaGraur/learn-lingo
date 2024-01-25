@@ -7,6 +7,7 @@ import {
   signOut,
 } from 'firebase/auth';
 
+
 const firebaseConfig = {
   apiKey: 'AIzaSyC4UcnUoTTN2_H0jlFuihTdTRN09u_I5Hg',
   authDomain: 'vanillajavascript-8b86d.firebaseapp.com',
@@ -18,14 +19,17 @@ const firebaseConfig = {
 
 const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
-const userEmail = document.querySelector('emailInpt');
-const userPassword = document.querySelector('passInpt');
-const registBtn = document.querySelector('registrButton');
-const registerWindow = document.querySelector('registrWindow');
+const userEmail = document.querySelector('#emailInpt');
+const userPassword = document.querySelector('#passInpt');
+const registBtn = document.querySelector('#registrButton');
+
+const registerWindow = document.querySelector('#registrWindow');
 
 const userSignUp = async () => {
   const signUpEmail = userEmail.value;
+  console.log(signUpEmail);
   const signUpPassword = userPassword.value;
+  console.log(signUpPassword);
   createUserWithEmailAndPassword(auth, signUpEmail, signUpPassword)
     .then(userCredential => {
       const user = userCredential.user;
